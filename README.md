@@ -11,7 +11,7 @@ This repository contains data files along with code book explaining them. The ke
   
 List of files of this repository:  
   
-1. **`tidy-data-CP2.R`** -- R code which loads raw data and produces tidy data 
+1. **`run_analysis.R`** -- R code which loads raw data and produces tidy data 
 files. Script file includes seven parts which are supposed to run consequentially:  
    * load packages;  
    * create subdirectory `'data'` in working directory, download archive with data, unzip it and create two data tables: *`train`* and *`test`* with training and test samples, respectively;  
