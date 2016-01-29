@@ -88,3 +88,6 @@ aver.tidy <- dt.tidy %>% group_by(subject.id,
 # save data sets into .csv files
 write.csv(dt.tidy, file = 'tidyData.csv', row.names = F)
 write.csv(aver.tidy, file = 'tidyDataMeans.csv', row.names = F)
+# save data sets into .txt files for submission at Coursera.org
+write.table(dt.tidy, file = 'tidyData.txt', row.names = F)
+write.table(aver.tidy, file = 'tidyDataMeans.txt', row.names = F)
